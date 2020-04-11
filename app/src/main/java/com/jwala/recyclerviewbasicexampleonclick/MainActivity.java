@@ -1,4 +1,4 @@
-package com.jwala.recyclerviewbasicexample;
+package com.jwala.recyclerviewbasicexampleonclick;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity implements RecyclerViewAdapt
     RecyclerView recyclerView;
     private List<EmployeeModel> employeeModelListtttt;
     private RecyclerViewAdapter recyclerViewAdapter;
+//    private DividerItemDecoration mCategoryRecyclerView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -59,6 +60,10 @@ public class MainActivity extends AppCompatActivity implements RecyclerViewAdapt
         RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false);
         recyclerView.setLayoutManager(layoutManager);
         recyclerView.setItemAnimator(new DefaultItemAnimator());
+
+        recyclerView.addItemDecoration(
+                new DividerItemDecoration(this.getDrawable(R.drawable.ic_recyclerview_item_decorator),true, false));
+
 
         recyclerView.setAdapter(recyclerViewAdapter);
 

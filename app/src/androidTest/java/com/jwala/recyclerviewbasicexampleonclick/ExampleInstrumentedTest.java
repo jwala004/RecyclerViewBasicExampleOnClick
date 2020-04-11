@@ -1,4 +1,4 @@
-package com.jwala.recyclerviewbasicexample;
+package com.jwala.recyclerviewbasicexampleonclick;
 
 import android.content.Context;
 
@@ -22,6 +22,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
 
-        assertEquals("com.jwala.recyclerviewbasicexample", appContext.getPackageName());
+        assertEquals("com.jwala.recyclerviewbasicexampleonclick", appContext.getPackageName());
     }
 }

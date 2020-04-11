@@ -1,4 +1,4 @@
-package com.jwala.recyclerviewbasicexample;
+package com.jwala.recyclerviewbasicexampleonclick;
 
 import android.content.Context;
 import android.view.LayoutInflater;

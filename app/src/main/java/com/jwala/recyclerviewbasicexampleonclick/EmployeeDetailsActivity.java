@@ -1,4 +1,4 @@
-package com.jwala.recyclerviewbasicexample;
+package com.jwala.recyclerviewbasicexampleonclick;
 
 import android.os.Bundle;
 import android.widget.ImageView;
