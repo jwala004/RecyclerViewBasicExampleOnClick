@@ -106,7 +106,7 @@ public class DividerItemDecoration extends RecyclerView.ItemDecoration {
 
         for (int i = mShowFirstDivider ? 0 : 1; i < parent.getChildCount(); i++) {
 
-            if (i != parent.getChildCount() - 1) {
+            if (i != parent.getChildCount() - 1) { // just remove ( - 1 ) from the condition and then we can also display the decorator for last item.
 
                 View child = parent.getChildAt(i);
 

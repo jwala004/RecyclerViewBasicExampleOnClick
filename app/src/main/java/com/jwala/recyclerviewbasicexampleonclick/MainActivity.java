@@ -62,7 +62,7 @@ public class MainActivity extends AppCompatActivity implements RecyclerViewAdapt
         recyclerView.setItemAnimator(new DefaultItemAnimator());
 
         recyclerView.addItemDecoration(
-                new DividerItemDecoration(this.getDrawable(R.drawable.ic_recyclerview_item_decorator),true, false));
+                new DividerItemDecoration(this.getDrawable(R.drawable.ic_recyclerview_item_decorator),true, true));
 
 
         recyclerView.setAdapter(recyclerViewAdapter);
